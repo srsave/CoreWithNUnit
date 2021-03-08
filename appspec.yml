@@ -1,8 +1,10 @@
-version: 0.0
+version: 0.1
+
 os: windows 
+
 files:
-   - source: /CoreWithNUnit/build_output/
-    destination: C:\inetpub\wwwroot\CoreWithNUnit
+    - source: CoreWithNUnit/build_output/
+      destination: C:\inetpub\wwwroot\CoreWithNUnit
     
 hooks:
   ApplicationStop:
@@ -13,7 +15,7 @@ hooks:
   BeforeInstall:
     - location: scripts/remove_application
       timeout: 300
-      runas: administrator
+      #runas: administrator
       
   ApplicationStart:
     - location: scripts/start_service
