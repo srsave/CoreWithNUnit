@@ -1,21 +1,15 @@
 version: 0.0
 os: windows 
 files:
-  - source: ./CoreWithNUnit/build_output/
+  - source: /CoreWithNUnit/build_output/
     destination: C:\inetpub\wwwroot\CoreWithNUnit
   
 hooks:
   ApplicationStop:
     - location: scripts/stop_service
       timeout: 300
-      #runas: root
- 
+      
   ApplicationStart:
     - location: scripts/start_service
       timeout: 300
-      #runas: root
-      
-      #C:\ProgramData\Amazon\CodeDeploy\8f54d61e-9742-441b-976c-60892051bf9a\d-EN0TGHLBL\deployment-archive\CoreWithNUnit\build_output
-      #C:\ProgramData/Amazon/CodeDeploy/8f54d61e-9742-441b-976c-60892051bf9a/d-EN0TGHLBL/deployment-archive/CoreWithNUnit/CoreWithNUnit/build_output/
-      
       
