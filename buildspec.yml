@@ -12,6 +12,7 @@ phases:
     build:
         commands:
            - echo Build started  on `date`
+           - dotnet restore
            - dotnet build -c Release ./CoreWithNUnit/CoreWithNUnit.csproj
            - dotnet publish -c release -o ./build_output CoreWithNUnit/CoreWithNUnit.csproj
            
@@ -21,3 +22,4 @@ artifacts:
     - CoreWithNUnit/build_output/**/*
     - scripts/**/*
     - appspec.yml    
+    - dotnet restore
