@@ -15,6 +15,7 @@ phases:
            - dotnet build -c Release ./CoreWithNUnit/CoreWithNUnit.csproj
            - dotnet publish -c release -o ./build_output CoreWithNUnit/CoreWithNUnit.csproj
            
+           
 artifacts:
  files:
     - CoreWithNUnit/build_output/**/*
