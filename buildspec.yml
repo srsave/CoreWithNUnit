@@ -1,0 +1,20 @@
+version: 0.2
+
+env:
+  variables:
+    PROJECT: CoreWithNUnit
+    DOTNET: 2.0
+phases:
+    install:
+        runtime-versions:
+            dotnet: 3.0
+  
+    build:
+        commands:
+           - echo Build started  on `date`
+           - dotnet build -c Release ./CoreWithNUnit/CoreWithNUnit.csproj
+artifacts:
+ files:
+    - CoreWithNUnit/build_output/**/*
+    - scripts/**/*
+    - appspec.yml    
