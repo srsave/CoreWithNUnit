@@ -13,6 +13,7 @@ phases:
         commands:
            - echo Build started  on `date`
            - dotnet build -c Release ./CoreWithNUnit/CoreWithNUnit.csproj
+           
 artifacts:
  files:
     - CoreWithNUnit/build_output/**/*
