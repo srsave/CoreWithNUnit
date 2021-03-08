@@ -4,8 +4,3 @@ files:
   - source: /CoreWithNUnit/build_output/
     destination: C:\inetpub\wwwroot\CoreWithNUnit
   
-hooks:
-  BeforeInstall:
-    - location: C:\bat\before-install.bat
-      timeout: 900
-      

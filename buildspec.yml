@@ -20,4 +20,4 @@ artifacts:
  files:
     - CoreWithNUnit/build_output/**/*
     - scripts/**/*
-    - appspec.yml    
+    #- appspec.yml    
