@@ -9,7 +9,6 @@ phases:
         runtime-versions:
             dotnet: 2.1
   
-  
     build:
         commands:
            - echo Build started  on `date`
