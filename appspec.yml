@@ -1,5 +1,5 @@
 version: 0.0
-os: linux 
+os: windows 
 files:
    - source: /CoreWithNUnit/build_output/
     destination: C:\inetpub\wwwroot\CoreWithNUnit
