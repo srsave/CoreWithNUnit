@@ -3,11 +3,11 @@ version: 0.2
 env:
   variables:
     PROJECT: CoreWithNUnit
-    DOTNET: 2.0
+    DOTNET: 2.1
 phases:
     install:
         runtime-versions:
-            dotnet: 3.0
+            dotnet: 2.1
   
     build:
         commands:
