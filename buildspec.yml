@@ -22,4 +22,3 @@ artifacts:
     - CoreWithNUnit/build_output/**/*
     - scripts/**/*
     - appspec.yml    
-    - dotnet restore
