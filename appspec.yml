@@ -1,16 +1,9 @@
 version: 0.0
-os: linux
+os: windows 
 files:
-  - source: CoreWithNUnit/bin/Debug/netcoreapp2.1/
-    destination: /home/ec2-user/aspnetcoreapp
-  - source: CoreWithNUnit/wwwroot/
-    destination: /home/ec2-user/aspnetcoreapp/wwwroot
-  - source: scripts/virtualhost.conf
-    destination: /home/ec2-user/aspnetcoreapp
-  - source: scripts/kestrel-aspnetcoreapp.service
-    destination: /etc/systemd/system/
-  - source: /requirements.txt
-    destination: /home/ec2-user
+  - source: CoreWithNUnit/CoreWithNUnit/build_output/
+    destination: C:\inetpub\wwwroot\CoreWithNUnit
+  
 hooks:
   ApplicationStop:
     - location: scripts/stop_service
