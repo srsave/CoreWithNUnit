@@ -10,20 +10,6 @@ hooks:
       timeout: 300
       runas: root
 
-  BeforeInstall:
-    - location: scripts/remove_application
-      timeout: 300
-      runas: root
-
-  AfterInstall:
-    - location: scripts/install_python3
-      timeout: 300
-      runas: root
-
-    - location: scripts/codestar_remote_access
-      timeout: 300
-      runas: root
-
     - location: scripts/install_httpd
       timeout: 300
       runas: root
