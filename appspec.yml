@@ -6,4 +6,3 @@ files:
     - source: CoreWithNUnit/build_output/
       destination: C:\inetpub\wwwroot\CoreWithNUnit
       
-    
