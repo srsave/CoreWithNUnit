@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Github\\CoreWithNUnit\\CoreWithNUnit.Test\\CoreWithNUnit.Test.csproj": {}
+    "E:\\Core\\CoreWithNUnit\\CoreWithNUnit.Test\\CoreWithNUnit.Test.csproj": {}
   },
   "projects": {
-    "G:\\Github\\CoreWithNUnit\\CoreWithNUnit.Test\\CoreWithNUnit.Test.csproj": {
+    "E:\\Core\\CoreWithNUnit\\CoreWithNUnit.Test\\CoreWithNUnit.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Github\\CoreWithNUnit\\CoreWithNUnit.Test\\CoreWithNUnit.Test.csproj",
+        "projectUniqueName": "E:\\Core\\CoreWithNUnit\\CoreWithNUnit.Test\\CoreWithNUnit.Test.csproj",
         "projectName": "CoreWithNUnit.Test",
-        "projectPath": "G:\\Github\\CoreWithNUnit\\CoreWithNUnit.Test\\CoreWithNUnit.Test.csproj",
-        "packagesPath": "C:\\Users\\Sudeep\\.nuget\\packages\\",
-        "outputPath": "G:\\Github\\CoreWithNUnit\\CoreWithNUnit.Test\\obj\\",
+        "projectPath": "E:\\Core\\CoreWithNUnit\\CoreWithNUnit.Test\\CoreWithNUnit.Test.csproj",
+        "packagesPath": "C:\\Users\\Nikhil\\.nuget\\packages\\",
+        "outputPath": "E:\\Core\\CoreWithNUnit\\CoreWithNUnit.Test\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Sudeep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Nikhil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -31,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "G:\\Github\\CoreWithNUnit\\CoreWithNUnit\\CoreWithNUnit.csproj": {
-                "projectPath": "G:\\Github\\CoreWithNUnit\\CoreWithNUnit\\CoreWithNUnit.csproj"
+              "E:\\Core\\CoreWithNUnit\\CoreWithNUnit\\CoreWithNUnit.csproj": {
+                "projectPath": "E:\\Core\\CoreWithNUnit\\CoreWithNUnit\\CoreWithNUnit.csproj"
               }
             }
           }
@@ -46,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -76,27 +73,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Github\\CoreWithNUnit\\CoreWithNUnit\\CoreWithNUnit.csproj": {
+    "E:\\Core\\CoreWithNUnit\\CoreWithNUnit\\CoreWithNUnit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Github\\CoreWithNUnit\\CoreWithNUnit\\CoreWithNUnit.csproj",
+        "projectUniqueName": "E:\\Core\\CoreWithNUnit\\CoreWithNUnit\\CoreWithNUnit.csproj",
         "projectName": "CoreWithNUnit",
-        "projectPath": "G:\\Github\\CoreWithNUnit\\CoreWithNUnit\\CoreWithNUnit.csproj",
-        "packagesPath": "C:\\Users\\Sudeep\\.nuget\\packages\\",
-        "outputPath": "G:\\Github\\CoreWithNUnit\\CoreWithNUnit\\obj\\",
+        "projectPath": "E:\\Core\\CoreWithNUnit\\CoreWithNUnit\\CoreWithNUnit.csproj",
+        "packagesPath": "C:\\Users\\Nikhil\\.nuget\\packages\\",
+        "outputPath": "E:\\Core\\CoreWithNUnit\\CoreWithNUnit\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Sudeep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Nikhil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -107,6 +99,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -118,6 +111,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -147,7 +141,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

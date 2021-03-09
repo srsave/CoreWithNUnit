@@ -4,14 +4,15 @@
     ViewData["Title"] = "Add";
 }
 
-<h2>Add</h2>
+<h2 style="background-color:darkgray; color:white; padding:inherit"   >AWS Asp.Net Core Example (Using DevOps)</h2>
 
 <h4>Addition of 2 Numbers</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4" style="vertical-align:central">
         <form asp-action="Add">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
             <div class="form-group">
                 <label asp-for="Num1" class="control-label"></label>
                 <input asp-for="Num1" class="form-control" />
