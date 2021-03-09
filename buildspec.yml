@@ -16,7 +16,7 @@ phases:
            - dotnet build -c Release ./CoreWithNUnit/CoreWithNUnit.csproj
            - dotnet publish -c release -o ./build_output CoreWithNUnit/CoreWithNUnit.csproj
            - dotnet build -c Release ./CoreWithNUnit.Test/CoreWithNUnit.Test.csproj
-           - dotnet vstest CoreWithNUnit.Test/bin/release/netcoreapp2.1/CoreWithNUnit.Test.dll
+           #- dotnet vstest CoreWithNUnit.Test/bin/release/netcoreapp2.1/CoreWithNUnit.Test.dll
            
 artifacts:
  files:
