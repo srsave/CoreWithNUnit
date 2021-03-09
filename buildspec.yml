@@ -8,19 +8,16 @@ phases:
     install:
         runtime-versions:
             dotnet: 2.1
-        commands:
-          - dotnet tool install -g AWS.CodeArtifact.NuGet.CredentialProvider
-          - dotnet codeartifact-creds install
-  
+        
     build:
         commands:
            - echo Build started  on `date`
-           #- dotnet restore
+           - dotnet restore
            - dotnet build -c Release ./CoreWithNUnit/CoreWithNUnit.csproj
            - dotnet publish -c release -o ./build_output CoreWithNUnit/CoreWithNUnit.csproj
-           #- dotnet build -c Release ./CoreWithNUnit.Test/CoreWithNUnit.Test.csproj
-           - nuget restore
-           - dotnet vstest CoreWithNUnit.Test/bin/Debug/netcoreapp2.1/CoreWithNUnit.Test.dll
+           - dotnet test -c Release ./CoreWithNUnit.Test/CoreWithNUnit.Test.csproj
+           #- nuget restore
+           #- dotnet vstest CoreWithNUnit.Test/bin/Debug/netcoreapp2.1/CoreWithNUnit.Test.dll
            
 artifacts:
  files:
