@@ -8,6 +8,9 @@ phases:
     install:
         runtime-versions:
             dotnet: 2.1
+        commands:
+          - dotnet tool install -g AWS.CodeArtifact.NuGet.CredentialProvider
+          - dotnet codeartifact-creds install
   
     build:
         commands:
