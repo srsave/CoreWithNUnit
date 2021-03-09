@@ -6,20 +6,3 @@ files:
     - source: CoreWithNUnit/build_output/
       destination: C:\inetpub\wwwroot\CoreWithNUnit
     
-hooks:
-  ApplicationStop:
-    - location: scripts/stop_service
-      timeout: 300
-      #runas: administrator
-      
-  BeforeInstall:
-    - location: scripts/remove_application
-      timeout: 300
-      #runas: administrator
-      
-  ApplicationStart:
-    - location: scripts/start_service
-      timeout: 300
-      #runas: administrator
-
-  
