@@ -15,7 +15,7 @@ phases:
            - dotnet restore
            - dotnet build -c Release ./CoreWithNUnit/CoreWithNUnit.csproj
            - dotnet publish -c release -o ./build_output CoreWithNUnit/CoreWithNUnit.csproj
-           - dotnet test -c Release ./CoreWithNUnit.Test/CoreWithNUnit.Test.csproj
+          # - dotnet test -c Release ./CoreWithNUnit.Test/CoreWithNUnit.Test.csproj
            #- nuget restore
            #- dotnet vstest CoreWithNUnit.Test/bin/Debug/netcoreapp2.1/CoreWithNUnit.Test.dll
            
