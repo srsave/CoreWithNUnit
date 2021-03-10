@@ -50,3 +50,4 @@ E:\Core\CoreWithNUnit\CoreWithNUnit\obj\Release\netcoreapp2.1\CoreWithNUnit.genr
 E:\Core\CoreWithNUnit\CoreWithNUnit\obj\Release\netcoreapp2.1\CoreWithNUnit.csproj.CopyComplete
 E:\Core\CoreWithNUnit\CoreWithNUnit\obj\Release\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\Core\CoreWithNUnit\CoreWithNUnit\obj\Release\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Core\CoreWithNUnit\CoreWithNUnit\obj\Release\netcoreapp2.1\CoreWithNUnit.csprojAssemblyReference.cache
