@@ -32,7 +32,6 @@ E:\Core\CoreWithNUnit\CoreWithNUnit\bin\Release\netcoreapp2.1\CoreWithNUnit.dll
 E:\Core\CoreWithNUnit\CoreWithNUnit\bin\Release\netcoreapp2.1\CoreWithNUnit.pdb
 E:\Core\CoreWithNUnit\CoreWithNUnit\bin\Release\netcoreapp2.1\CoreWithNUnit.Views.dll
 E:\Core\CoreWithNUnit\CoreWithNUnit\bin\Release\netcoreapp2.1\CoreWithNUnit.Views.pdb
-E:\Core\CoreWithNUnit\CoreWithNUnit\obj\Release\netcoreapp2.1\CoreWithNUnit.csprojAssemblyReference.cache
 E:\Core\CoreWithNUnit\CoreWithNUnit\obj\Release\netcoreapp2.1\CoreWithNUnit.AssemblyInfoInputs.cache
 E:\Core\CoreWithNUnit\CoreWithNUnit\obj\Release\netcoreapp2.1\CoreWithNUnit.AssemblyInfo.cs
 E:\Core\CoreWithNUnit\CoreWithNUnit\obj\Release\netcoreapp2.1\CoreWithNUnit.csproj.CoreCompileInputs.cache

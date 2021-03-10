@@ -41,7 +41,7 @@ namespace SampleAdditionCore1_NUnit
 
                 yield return new TetstSetInfo("1", "10");
                 yield return new TetstSetInfo("500", "1000");
-                yield return new TetstSetInfo("50.70", "10.800");
+                yield return new TetstSetInfo("50.70", "Test");
             }
         }
         private static IEnumerable<TetstSetInfo> ParamterValuesSet2
